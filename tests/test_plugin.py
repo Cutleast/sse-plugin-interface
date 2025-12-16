@@ -18,7 +18,7 @@ class TestSSEPlugin:
 
     EXTRACT_STRINGS_DATA: list[tuple[Path, int]] = [
         (Path("tests") / "test_data" / "Obsidian Weathers.esp", 31),
-        (Path("tests") / "test_data" / "Ordinator - Perks of Skyrim.esp", 7105),
+        (Path("tests") / "test_data" / "Ordinator - Perks of Skyrim.esp", 7107),
         (Path("tests") / "test_data" / "RSChildren Patch - BS Bruma.esp", 13),
         (Path("tests") / "test_data" / "RSChildren.esp", 69),
         (Path("tests") / "test_data" / "RSkyrimChildren.esm", 78),
