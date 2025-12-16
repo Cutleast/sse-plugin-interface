@@ -10,6 +10,7 @@ STRING_RECORDS: dict[str, list[str]] = {
     "ARMO": ["FULL", "DESC"],
     "AVIF": ["FULL", "DESC"],
     "BOOK": ["FULL", "DESC", "CNAM"],
+    "CLAS": ["FULL"],
     "CELL": ["FULL"],
     "CONT": ["FULL"],
     "DIAL": ["FULL"],
