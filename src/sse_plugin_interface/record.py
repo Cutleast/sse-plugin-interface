@@ -198,7 +198,9 @@ class Record:
 
             elif subrecord_type == "EPFD":
                 subrecord.index = epfd_index
-                epfd_index += 1
+
+                if perk_type == 7:
+                    epfd_index += 1
 
             elif subrecord_type == "EPF2":
                 if peek(stream, 4) == b"EPF3":
