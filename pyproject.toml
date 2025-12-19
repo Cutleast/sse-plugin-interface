@@ -1,6 +1,6 @@
 [project]
 name = "sse-plugin-interface"
-version = "1.0.0"
+version = "1.0.1"
 description = "A pure Python library for reading and writing Skyrim Special Edition Plugin files (.esp, .esm, .esl)."
 authors = [
   { name="Cutleast", email="cutleast@gmail.com" },
